@@ -1,0 +1,20 @@
+.board{
+    display: grid;
+    grid-template: repeat (8, 100px);
+}
+   
+.board{
+    display: flex;
+    flex-wrap: wrap;
+}
+.black{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+  }
+
+ .white{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+ } 
